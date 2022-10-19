@@ -10,7 +10,7 @@
         android:id="@+id/btn_explicit_intent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="이미지 액티비티 실행"
+        android:text="이미지"
         app:layout_constraintBottom_toTopOf="@id/edit_text"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -33,4 +33,5 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/edit_text"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

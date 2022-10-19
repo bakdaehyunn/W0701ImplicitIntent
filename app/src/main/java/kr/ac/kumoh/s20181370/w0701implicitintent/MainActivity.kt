@@ -18,5 +18,12 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, ImageActivity::class.java)
             startActivity(intent)
         }
+
+        view.btnImplicitIntent.setOnClickListener {
+            val uri = Uri.parse("https://www.youtube.com/results?search_query="
+                    + view.editText.text.toString())
+            val intent = Intent(Intent.ACTION_VIEW, uri)
+            startActivity(intent)
+        }
     }
 }
